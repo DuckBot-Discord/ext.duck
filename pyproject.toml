@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "1.0"
+name = "discord-ext-duck"
+description = "Utility extensions for DuckBot and it's sister projects."
+authors = [{ name = "LeoCx1000", email = "leocx1000@duck-bot.com" }]
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = ["discord.py>=2.0.0, <3.0.0"]
+dynamic = ["readme"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English",
+    "Typing :: Typed",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.setuptools]
+packages = ["discord.ext.duck.errors"]
+
+
+[tool.setuptools.dynamic]
+readme = { file = ["README.md"], content-type = "text/markdown" }
+
+[tool.black]
+line-length = 120
