@@ -1,7 +1,7 @@
 from discord.utils import MISSING
 from discord.ext import commands
 
-from proc_base import BaseWebserver
+from .proc_base import BaseWebserver
 
 
 class WebserverCog(commands.Cog, BaseWebserver):
