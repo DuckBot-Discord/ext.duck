@@ -1,0 +1,3 @@
+[submodule "discord/ext/duck/mentionable_tree"]
+	path = discord/ext/duck/mentionable_tree
+	url = https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4
