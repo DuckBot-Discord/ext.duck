@@ -1,2 +1,2 @@
 # ext.duck
-Utilities for DuckBot and it's sister projects
+Utilities for DuckBot and its sister projects
