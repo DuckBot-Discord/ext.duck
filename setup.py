@@ -25,6 +25,7 @@ with open("README.md") as f:
 packages = [
     "discord.ext.duck.errors",
     "discord.ext.duck.webserver",
+    "discord.ext.duck.mentionable_tree",
 ]
 
 setup(
@@ -34,7 +35,7 @@ setup(
     version=version,
     packages=packages,
     license="Mozilla Public License v2.0",
-    description="Utility extensions for DuckBot and it's sister projects.",
+    description="Utility extensions for DuckBot and its sister projects.",
     long_description=readme,
     long_description_content_type="text/markdown",
     include_package_data=True,
